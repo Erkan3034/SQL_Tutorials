@@ -59,3 +59,21 @@ bu komut:
    - Sütundaki tüm veriler kaybolur
    - Sütuna bağlı indeksler veya kısıtlamalar varsa onlar da silinir
 */
+
+-- =================== TABLO SILME ISLEMI ======================================
+
+-- 'kitaplar' veritabanındaki 'table1' tablosunu tamamen silmek için DROP TABLE komutu
+-- USE kitaplar;        -- Önce kitaplar veritabanını seçiyoruz
+-- DROP TABLE table1;   -- 'table1' tablosunu kalıcı olarak siler
+
+/*
+Bu SQL komutunun işlevi:
+1. USE kitaplar; 
+   - İşlem yapılacak veritabanını 'kitaplar' olarak belirler
+   - Sonraki komutlar bu veritabanında çalışır
+
+2. DROP TABLE table1;
+   - 'table1' adlı tabloyu ve tüm içeriğini kalıcı olarak siler
+   - Tabloyla ilişkili tüm veriler, indeksler, tetikleyiciler de silinir
+*/
+
